@@ -1,7 +1,7 @@
-
+import Layout from "../../Components/Layout"
 const Ubications = () => {
   return (
-    <div>Ubications</div>
+    <Layout>Ubications</Layout>
   )
 }
 

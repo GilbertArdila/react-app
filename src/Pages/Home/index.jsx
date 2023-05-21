@@ -1,6 +1,6 @@
-
+import Layout from "../../Components/Layout";
 
 const Home = () => {
-  return <div className='bg-rose-300	'>Home</div>
-}
-export default Home
+  return <Layout>Home</Layout>;
+};
+export default Home;

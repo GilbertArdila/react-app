@@ -7,6 +7,7 @@
     - npm install -D tailwindcss postcss autoprefixer
     - npx tailwindcss init -p
     - npm install react-router-dom
+    - npm i prop-types --save 
 tailwind.config
 ** @type {import('tailwindcss').Config} \*/
 export default {

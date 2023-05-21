@@ -12,21 +12,21 @@ import "./App.css";
 
 const AppRoutes = () => {
   let routes = useRoutes([
-    { path: '/', element: <Home /> },
-    { path: '/crud', element: <Crud /> },
-    { path: '/empleados', element: <Employees /> },
-    { path: '/ubicaciones', element: <Ubications /> },
-    { path: '/activos', element: <Assets /> },
-    { path: '/*', element: <NotFound /> },
-  ])
+    { path: "/", element: <Home /> },
+    { path: "/crud", element: <Crud /> },
+    { path: "/empleados", element: <Employees /> },
+    { path: "/ubicaciones", element: <Ubications /> },
+    { path: "/activos", element: <Assets /> },
+    { path: "/*", element: <NotFound /> },
+  ]);
 
-  return routes
-}
+  return routes;
+};
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />  
+      <Navbar />
       <AppRoutes />
     </BrowserRouter>
   );

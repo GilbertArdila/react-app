@@ -1,7 +1,7 @@
-
+import Layout from "../../Components/Layout"
 const Crud = () => {
   return (
-    <div>Crud</div>
+    <Layout>Crud</Layout>
   )
 }
 

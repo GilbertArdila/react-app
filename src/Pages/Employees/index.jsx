@@ -1,8 +1,8 @@
-
+import Layout from "../../Components/Layout"
 
 const Employees = () => {
   return (
-    <div>Employees</div>
+    <Layout>Employees</Layout>
   )
 }
 
