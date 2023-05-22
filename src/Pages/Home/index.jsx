@@ -4,6 +4,10 @@ import Card from "../../Components/Card";
 
 const Home = () => {
   return <Layout >
+    <div className="flex items-center justify-center relative w-80 mb-4">
+      <h1 className="font-medium text-xl text-white">Home</h1>
+    </div>
+    
     <div className="grid grid-cols-3 gap-4 mx-auto max-w-90vw p-5 ">
       {data.map((data) => { return <Card className="relative col-span-3 sm:col-span-2 md:col-span-1" {...data} key={data.text}/> })
     }
