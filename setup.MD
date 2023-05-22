@@ -7,7 +7,9 @@
     - npm install -D tailwindcss postcss autoprefixer
     - npx tailwindcss init -p
     - npm install react-router-dom
-    - npm i prop-types --save 
+    - npm i prop-types --save
+    - npm install axios
+
 tailwind.config
 ** @type {import('tailwindcss').Config} \*/
 export default {
@@ -26,5 +28,3 @@ app.css
 
 - create component folders
 - enlazar las rutas a las páginas
-
- 
