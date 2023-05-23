@@ -1,11 +1,7 @@
 import { useEffect } from "react";
 
 const Table = (data) => {
-  const {
-    id,
-    identification,
-    isEmpty
-  } = data.data;
+  const { id, identification, isEmpty } = data.data;
   useEffect(() => {
     return () => {};
   }, []);
@@ -20,9 +16,9 @@ const Table = (data) => {
       </thead>
       <tbody>
         <tr>
-          <td >{id}</td>
-          <td >{identification}</td>
-          <td >{isEmpty == true?'Sí':'No'}</td>
+          <td>{id}</td>
+          <td>{identification}</td>
+          <td>{isEmpty == true ? "Sí" : "No"}</td>
         </tr>
       </tbody>
     </table>

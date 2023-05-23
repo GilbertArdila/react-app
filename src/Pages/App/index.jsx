@@ -17,6 +17,7 @@ const AppRoutes = () => {
     { path: "/empleados", element: <Employees /> },
     { path: "/ubicaciones", element: <Ubications /> },
     { path: "/activos", element: <Assets /> },
+
     { path: "/*", element: <NotFound /> },
   ]);
 

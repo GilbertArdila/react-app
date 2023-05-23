@@ -9,6 +9,8 @@
     - npm install react-router-dom
     - npm i prop-types --save
     - npm install axios
+    - npm i sweetalert2 sweetalert2-react-content @fortawesome/fontawesome-free
+    - npm i  bootstrap
 
 tailwind.config
 ** @type {import('tailwindcss').Config} \*/

@@ -52,18 +52,18 @@ const Assets = () => {
 
   return (
     <Layout>
-      <div className="flex items-center justify-center  w-80 mb-4 mt-4">
+      <div className="flex items-center justify-center  w-80 mb-6 mt-28">
         <h1 className="font-medium text-xl text-white">Activos</h1>
       </div>
       <input
         type="text"
-        className="rounded-lg border-black w-80 p-4 mb-12 focus:outline-none "
+        className="rounded-lg border-black w-80 p-4 mb-10 focus:outline-none "
         placeholder={"buscar..."}
         onChange={(e) => {
           setSearch(e.target.value);
         }}
       />
-      <table className="table fixed bg-blue-800 top-12 w-full border-separate lg:border-collapse table-fixed">
+      <table className="table fixed bg-blue-800 top-28 w-full border-separate lg:border-collapse table-fixed">
         <thead>
           <tr>
             <th className="w-1/10">ID</th>
