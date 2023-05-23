@@ -21,14 +21,14 @@ const Assets = () => {
         console.error("Error fetching assets:", error);
       });
   }, []);
-   
+
   //lógica para el searcher
   const filteredAsset = (assets, search) => {
     return assets?.filter((asset) =>
       asset.name.toLowerCase().includes(search.toLowerCase())
     );
   };
-  
+
   useEffect(() => {
     if (search) {
       setFilteredAssets(filteredAsset(assets, search));
@@ -48,7 +48,6 @@ const Assets = () => {
       return assets?.map((item) => <Table data={item} key={item.id} />);
     }
   };
-
 
   return (
     <Layout>

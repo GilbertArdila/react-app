@@ -3,7 +3,7 @@ import axios from "axios";
 
 import { apiUrl } from "../../Api";
 import Table from "../../Components/Tables/ubications";
-import Layout from "../../Components/Layout"
+import Layout from "../../Components/Layout";
 
 const Ubications = () => {
   const [ubications, setUbications] = useState(null);
@@ -21,12 +21,11 @@ const Ubications = () => {
 
   return (
     <Layout>
-      
       {ubications?.map((item) => (
         <Table data={item} key={item.id} />
       ))}
     </Layout>
-  )
-}
+  );
+};
 
-export default Ubications
+export default Ubications;

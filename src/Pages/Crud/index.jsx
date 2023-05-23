@@ -274,12 +274,7 @@ class Crud extends Component {
                       className="btn btn-success"
                       onClick={() => {
                         if (
-                          form.name === "" ||
-                          form.description === "" ||
-                          form.purchaseDate === "" ||
-                          form.quantity === "" ||
-                          form.state === "" ||
-                          form.ubication === ""
+                          !form
                         ) {
                           showAlert(
                             "Por favor llene todos los campos",
